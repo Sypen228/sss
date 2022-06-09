@@ -1,0 +1,165 @@
+body {
+    background-color: black;
+}
+
+nav {
+    margin: 0px 0;
+    background-color: rgb(49, 39, 59);
+    }
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    }
+
+nav ul li {
+    margin: 0px 0px 0 0;
+    display: inline-block;
+    background-color: rgb(49, 39, 59);
+    }
+
+nav a {
+    display: block;
+    padding: 0 15px;
+    color: snow;
+    font-size: 23px;
+    line-height: 60px;
+    text-decoration: none;
+    }
+
+nav a:hover {
+    background-color:rgb(75, 46, 105);
+    padding-bottom: 3px;
+    }
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    }
+
+nav ul li:hover>ul {
+    display: inherit;
+    }
+
+nav ul ul li {
+    display:list-item;
+   }
+
+form {
+    position: relative;
+    width: 150%;
+    margin: 10px auto;
+  }
+
+input, button {
+    border: none;
+    outline: none;
+    border-radius: 3px;
+  }
+
+input {
+    width: 100%;
+    height: 40px;
+    background: white;
+    padding-left: 10px;
+  }
+
+button {
+    height: 26px;
+    width: 26px;
+    position:absolute;
+    top: 8px;
+    right: 8px;
+    background: rgb(49, 39, 59);
+    cursor: pointer;
+  }
+
+button:hover{
+      background: rgb(92, 57, 129);
+  }
+
+div content {
+    background: rgb(49, 39, 59); 
+    float: left; 
+    width: 75%; 
+    height: 80%;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 40px;
+    } 
+
+div footer {
+    width: 100%;
+    height: 20%;
+    background-color: rgb(49, 39, 59);
+    float: left;
+    color: white;
+}
+
+div aside{
+    width: 20%;
+    height: 80%;
+    background-color: rgb(49, 39, 59);
+    float: right;
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+div table{
+    width: 700px;
+    height: 250px;
+    text-align: center;
+}
+
+aside a:link{
+    text-decoration: underline;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white
+}
+
+.gif{
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+form .myname {
+    width: 200px;
+    margin-bottom: 2.5px;
+}
+form .myemail{
+    width: 200px;
+    margin-bottom: 2px;
+}
+form .zap{
+    width: 200px;
+    margin-bottom: 2px; 
+}
+footer{
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: solid;
+    text-align: center;
+}
+.company{
+    width: 50px;
+    height: 25px;
+    position: relative;
+    top: 5px;
+}
+form .knopka{
+    width: 200px;
+    position: relative;
+    background: white;
+    margin-left: 14px;
+}
